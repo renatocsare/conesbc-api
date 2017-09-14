@@ -1,0 +1,27 @@
+server:
+   contextPath: /
+   port: 8081
+tomcat:
+   ajp:
+      port: 8009
+      remoteauthentication: false
+      enabled: true
+spring:
+    datasource:
+        username: root
+        password: root
+        url: jdbc:mysql://localhost:3306/conesbc
+        tomcat:
+            driver-class-name: com.mysql.jdbc.Driver
+        validationQuery: SELECT 1
+        testWhileIdle: true
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        properties:
+            hibernate:
+               dialect: org.hibernate.dialect.MySQL5Dialect
+
+
