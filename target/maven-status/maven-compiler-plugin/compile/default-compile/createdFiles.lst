@@ -1,0 +1,6 @@
+domain\Evento.class
+br\com\agendadigital\WebConfig.class
+br\com\agendadigital\Application.class
+br\com\agendadigital\controller\HomeController.class
+repository\AgendaRepository.class
+service\AgendaService.class
