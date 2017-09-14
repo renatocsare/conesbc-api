@@ -1,6 +1,6 @@
 server:
    contextPath: /
-   port: 8081
+   port: 8080
 tomcat:
    ajp:
       port: 8009
