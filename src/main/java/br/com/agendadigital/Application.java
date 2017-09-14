@@ -42,7 +42,7 @@ public class Application extends SpringBootServletInitializer {
             ajpConnector.setPort(ajpPort);
             ajpConnector.setSecure(false);
             ajpConnector.setAllowTrace(false);
-            ajpConnector.setScheme("https");
+            ajpConnector.setScheme("http");
             tomcat.addAdditionalTomcatConnectors(ajpConnector);
         }
 
